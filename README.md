@@ -1,4 +1,2 @@
 # antoniojosetorres.github.io
-### Empezando con _GitHub Pages_.
-
-[index.html](index.html)
+## Contenido de la web **[cv.antoniojosetorres.es](http://cv.antoniojosetorres.es)**

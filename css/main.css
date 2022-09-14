@@ -1515,7 +1515,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #114477;   /* background-color: #378C3F; */
+  background-color: #114477;
   color: #FFFFFF;
 }
 
@@ -1523,7 +1523,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #11447777;   /* background-color: #40a249; */
+  background-color: #11447777;
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2598,16 +2598,16 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: #11447766;   /* background: rgba(55, 140, 63, 0.4); */
+  background: #11447766;
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #114477;   /* background: #378C3F; */
+  background: #114477;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #114477;   /* color: #378C3F; */
+  color: #114477;
 }
 
 .progress-container.progress-info .progress {
@@ -2689,8 +2689,8 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .badge-primary {
-  border-color: #114477;   /* border-color: #378C3F; */
-  color: #114477;   /* color: #378C3F; */
+  border-color: #114477;
+  color: #114477;
 }
 
 .badge-info {
@@ -2818,7 +2818,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;   /* font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; */
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2830,11 +2830,11 @@ small {
 }
 
 a {
-  color: #114477;   /* color: #378C3F; */
+  color: #114477;
 }
 
 a:hover, a:focus {
-  color: #114477;   /* color: #378C3F; */
+  color: #114477;
 }
 
 h1, .h1 {
@@ -2991,7 +2991,7 @@ p {
 body {
   color: #2c2c2c;
   font-size: 16px;
-  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;   /* font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; */
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -3102,7 +3102,7 @@ body {
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #114477;   /* background-color: #378C3F; */
+  background-color: #114477;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
@@ -3402,7 +3402,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #114477 !important;   /* background-color: #378C3F !important; */
+  background-color: #114477 !important;
 }
 
 .bg-info {
@@ -5612,13 +5612,13 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #114477;   /* background: #378C3F; */
+    background: #114477;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
     background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#114477 0%, #000 80%);   /* background: linear-gradient(#378C3F 0%, #000 80%); */
+    background: linear-gradient(#114477 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -7044,13 +7044,13 @@ Created using IcoMoon - icomoon.io
 /* Body */
 /* perfil Page Background Style */
 .page-header {
-  background: #2c2c2c33;   /* background: rgba(44, 44, 44, 0.2); */
+  background: #2c2c2c33;
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(#2c2c2c33), to(#11447799));   /* background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6))); */
-  background: linear-gradient(0deg, #2c2c2c33, #11447799);   /* background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6)); */
+  background: -webkit-gradient(linear, left bottom, left top, from(#2c2c2c33), to(#11447799));
+  background: linear-gradient(0deg, #2c2c2c33, #11447799);
   /* Standard syntax */
 }
 
@@ -7096,7 +7096,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid #11447766;   /* border: 15px solid rgba(55, 140, 63, 0.6); */
+  border: 15px solid #11447766;
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -7123,12 +7123,12 @@ Created using IcoMoon - icomoon.io
   transition: all .3s ease-out;
 }
 
-.cc-profile-image a:hover img {
-  -webkit-transform: scale(1.06, 1.06);
-          transform: scale(1.06, 1.06);
+.cc-profile-image img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
 }
 
-.cc-profile-image a:hover:before {
+.cc-profile-image img:hover:before {
   -webkit-animation: none;
           animation: none;
 }
@@ -7206,7 +7206,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-reference .carousel-indicators .active {
-  background-color: #114477;   /* background-color: #378C3F; */
+  background-color: #114477;
 }
 
 .cc-reference .carousel-inner {

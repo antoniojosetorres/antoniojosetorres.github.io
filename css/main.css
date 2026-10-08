@@ -428,7 +428,7 @@
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
-  -o-transform: 300ms ease 0s;
+  /* -o-transform: 300ms ease 0s; */
   transition: 300ms ease 0s;
 }
 
@@ -1495,10 +1495,10 @@ fieldset[disabled]
   font-size: 1.325rem;
 }
 
-.btn.btn-icon i.now-ui-icons,   /* .btn.btn-icon:not(.btn-footer) i.now-ui-icons, */
-.btn.btn-icon i.fa,   /* .btn.btn-icon:not(.btn-footer) i.fa, */
-.navbar .navbar-nav > a.btn.btn-icon i.now-ui-icons,   /* .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.now-ui-icons, */
-.navbar .navbar-nav > a.btn.btn-icon i.fa {   /* .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.fa { */
+.btn.btn-icon i.now-ui-icons,
+.btn.btn-icon i.fa,
+.navbar .navbar-nav > a.btn.btn-icon i.now-ui-icons,
+.navbar .navbar-nav > a.btn.btn-icon i.fa {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1508,8 +1508,8 @@ fieldset[disabled]
   width: 25px;
 }
 
-.btn .now-ui-icons,   /* .btn:not(.btn-icon) .now-ui-icons, */
-.navbar .navbar-nav > a.btn .now-ui-icons {   /* .navbar .navbar-nav > a.btn:not(.btn-icon) .now-ui-icons { */
+.btn .now-ui-icons,
+.navbar .navbar-nav > a.btn .now-ui-icons {
   position: relative;
   top: 1px;
 }
@@ -3337,7 +3337,7 @@ body {
 }
 
 .navbar .navbar-brand {
-  /* text-transform: uppercase; */
+
   font-size: 0.8571em;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -3932,7 +3932,7 @@ Created using IcoMoon - icomoon.io
   display: inline-block;
   font: normal normal normal 14px/1 'Nucleo Outline';
   font-size: inherit;
-  speak: none;
+
   text-transform: none;
   /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
@@ -4737,7 +4737,7 @@ Created using IcoMoon - icomoon.io
 
 .footer nav {
   display: inline-block;
-  float: left;
+
 }
 
 .footer ul {
@@ -5925,9 +5925,9 @@ Created using IcoMoon - icomoon.io
       opacity: 1;
     }
   }
-  .sidebar-collapse [class*="navbar-expand-"] .navbar-collapse {
-    width: 50vw;   /* width: 300px; */
-  }
+  
+  
+  
   .sidebar-collapse .wrapper {
     -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -5962,8 +5962,8 @@ Created using IcoMoon - icomoon.io
     transform: translate3d(-150px, 0, 0);
   }
   .nav-open .sidebar-collapse .navbar-translate {
-    -webkit-transform: translate3d(-50vw, 0, 0);   /* -webkit-transform: translate3d(-300px, 0, 0); */
-    transform: translate3d(-50vw, 0, 0);   /* transform: translate3d(-300px, 0, 0); */
+    -webkit-transform: translate3d(-50vw, 0, 0);
+    transform: translate3d(-50vw, 0, 0);
   }
   .nav-open .sidebar-collapse.menu-on-left .navbar-collapse {
     -webkit-transform: translate3d(0px, 0, 0);
@@ -7043,16 +7043,16 @@ Created using IcoMoon - icomoon.io
 
 /* Body */
 /* perfil Page Background Style */
-.page-header {
-  background: #2c2c2c33;
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(#2c2c2c33), to(#11447799));
-  background: linear-gradient(0deg, #2c2c2c33, #11447799);
-  /* Standard syntax */
-}
+
+
+
+
+
+
+
+
+
+
 
 .page-header .btn {
   width: 140px;
